@@ -35,10 +35,6 @@ body {
   flex: 1 0 auto;
 }
 
-.initial-content{
-  width: 80%;
-}
-
 .page {
   @include breakpoint($large) {
     float: right;
