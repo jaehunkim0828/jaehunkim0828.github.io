@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Jaehun Kim"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/jhimg.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Software Engineer"
   location         : "Seoul Korea"
   email            :
