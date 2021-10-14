@@ -24,7 +24,7 @@ description              : "Software Engineer"
 url                      : "https://jaehunkim0828.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "https://user-images.githubusercontent.com/67530239/137249288-a04a9a2d-0f8f-4672-9a2a-3c56431ba20c.png"
+teaser                   : 
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
