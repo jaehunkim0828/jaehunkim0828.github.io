@@ -24,6 +24,12 @@
   a {
     position: relative;
     z-index: 10;
+    color: #CCEABB;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #a7c099;
   }
 
   a[rel="permalink"] {
