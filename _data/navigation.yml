@@ -4,6 +4,7 @@ main:
     url: /
   - title: "Introduce"
     url: /about/
+  - title: /categories/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
