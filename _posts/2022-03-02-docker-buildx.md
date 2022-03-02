@@ -61,7 +61,7 @@ $ code ~/.docker/config.json
    ![docker](/images/dockers/inspect.png)
 
    - <span style='background-color: #EEEEEE; color: tomato; padding: 0 2px; border-radius: 3px' >--name</span>은 builder 이름
-   - <span style='background-color: #EEEEEE; color: tomato; padding: 0 2px; border-radius: 3px' >--driver</span>은 dirver이름(띄어쓰기로 중복가능)
+   - <span style='background-color: #EEEEEE; color: tomato; padding: 0 2px; border-radius: 3px' >--driver</span>은 driver이름(띄어쓰기로 중복가능)
    - <span style='background-color: #EEEEEE; color: tomato; padding: 0 2px; border-radius: 3px' >--pratform</span>은 build할때 지정한 platform 고정할 수 있습니다.
    - <span style='background-color: #EEEEEE; color: tomato; padding: 0 2px; border-radius: 3px' >--use</span>는 현재 builder를 기본사용으로 지정합니다.
    - <span style='background-color: #EEEEEE; color: tomato; padding: 0 2px; border-radius: 3px' >--load</span>는 host docker image에 저장합니다.
@@ -69,8 +69,8 @@ $ code ~/.docker/config.json
    Builder 만들기
 
    ```
-   $ docker buildx --name [name] --dirver [option] --use <-- 예시
-   $ docker buildx --name test --dirver linux/amd64 linux/arm64 linux/ppc64le linux/arm/v8 linux/arm/v6
+   $ docker buildx --name [name] --driver [option] --use <-- 예시
+   $ docker buildx --name test --driver linux/amd64 linux/arm64 linux/ppc64le linux/arm/v8 linux/arm/v6
    ```
 
    buildx로 multi-platform image 만들기
