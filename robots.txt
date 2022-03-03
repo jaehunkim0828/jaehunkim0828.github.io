@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jaehunkim0828.github.io/sitemap.xml
+Sitemap: https://jaehunkim0828.github.io/post.xml
